@@ -4,7 +4,8 @@ const products = [
   {
     id: 1,
     name: 'Herbal Magic',
-    price: '₦12,000',
+    price: '$100',
+    previousPrice: '$120',
     description: 'Natural remedy made from organic plants.',
     image: '/images/drugs/IMG-20250507-WA0000.jpg',
     whatsapp: 'https://wa.me/2347012345678?text=I%20am%20interested%20in%20Herbal%20Magic',
@@ -12,7 +13,8 @@ const products = [
   {
     id: 2,
     name: 'Parasite Cleanse',
-    price: '₦10,000',
+    price: '$85',
+    previousPrice: '$100',
     description: 'Helps cleanse the body of harmful parasites.',
     image: '/images/drugs/IMG-20250507-WA0002.jpg',
     whatsapp: 'https://wa.me/2347012345678?text=I%20want%20to%20order%20Parasite%20Cleanse',
@@ -20,7 +22,8 @@ const products = [
   {
     id: 3,
     name: 'Detox Combo',
-    price: '₦15,000',
+    price: '$130',
+    previousPrice: '$150',
     description: 'Full-body detox herbal combo.',
     image: '/images/drugs/IMG-20250507-WA0005.jpg',
     whatsapp: 'https://wa.me/2347012345678?text=Tell%20me%20more%20about%20Detox%20Combo',
@@ -28,7 +31,8 @@ const products = [
   {
     id: 4,
     name: 'Fibroid Flush',
-    price: '₦18,000',
+    price: '$150',
+    previousPrice: '$180',
     description: 'Supports fibroid shrinkage naturally.',
     image: '/images/infections/wordpressphotos/green-tea-5301025_640.jpg',
     whatsapp: 'https://wa.me/2347012345678?text=I%20need%20Fibroid%20Flush',
@@ -37,6 +41,7 @@ const products = [
     id: 5,
     name: 'Fertility Boost',
     price: '$54',
+    previousPrice: '$70',
     description: 'Herbal formula to boost fertility.',
     image: '/images/infections/wordpressphotos/tea-1869716_640.jpg',
     whatsapp: 'https://wa.me/2347012345678?text=I%20am%20interested%20in%20Fertility%20Boost',
@@ -44,7 +49,8 @@ const products = [
   {
     id: 6,
     name: 'Immune Shield',
-    price: '₦8,000',
+    price: '$65',
+    previousPrice: '$80',
     description: 'Strengthens your immune system.',
     image: '/images/infections/IMG-20250507-WA0017.jpg',
     whatsapp: 'https://wa.me/2347012345678?text=Order%20Immune%20Shield',
@@ -68,7 +74,10 @@ const ProductDetailsSection = () => {
                 className="w-full h-56 object-cover rounded-lg mb-4"
               />
               <h3 className="text-xl font-semibold mb-2">{product.name}</h3>
-              <p className="text-green-800 font-bold text-lg mb-2">{product.price}</p>
+              <div className="flex gap-2 items-center justify-center mb-2">
+                <p className="text-red-500 line-through text-base">{product.previousPrice}</p>
+                <p className="text-green-800 font-bold text-lg">{product.price}</p>
+              </div>
               <p className="text-sm mb-4">{product.description}</p>
               <a
                 href={product.whatsapp}

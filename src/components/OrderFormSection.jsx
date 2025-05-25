@@ -6,7 +6,7 @@ const OrderFormSection = () => {
   const [countdown, setCountdown] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
   // Set your promo end date here
-  const promoEndDate = new Date('2025-05-10T23:59:59').getTime();
+  const promoEndDate = new Date('2025-06-10T23:59:59').getTime();
 
   useEffect(() => {
     const interval = setInterval(() => {
