@@ -8,7 +8,7 @@ const products = [
     previousPrice: '$120',
     description: 'Natural remedy made from organic plants.',
     image: '/images/drugs/IMG-20250507-WA0000.jpg',
-    whatsapp: 'https://wa.me/2347012345678?text=I%20am%20interested%20in%20Herbal%20Magic',
+    whatsapp: 'https://wa.me/13417583264?text=I%20am%20interested%20in%20Herbal%20Magic',
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const products = [
     previousPrice: '$100',
     description: 'Helps cleanse the body of harmful parasites.',
     image: '/images/drugs/IMG-20250507-WA0002.jpg',
-    whatsapp: 'https://wa.me/2347012345678?text=I%20want%20to%20order%20Parasite%20Cleanse',
+    whatsapp: 'https://wa.me/13417583264?text=I%20want%20to%20order%20Parasite%20Cleanse',
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const products = [
     previousPrice: '$150',
     description: 'Full-body detox herbal combo.',
     image: '/images/drugs/IMG-20250507-WA0005.jpg',
-    whatsapp: 'https://wa.me/2347012345678?text=Tell%20me%20more%20about%20Detox%20Combo',
+    whatsapp: 'https://wa.me/13417583264?text=Tell%20me%20more%20about%20Detox%20Combo',
   },
   {
     id: 4,
@@ -35,7 +35,7 @@ const products = [
     previousPrice: '$180',
     description: 'Supports fibroid shrinkage naturally.',
     image: '/images/infections/wordpressphotos/green-tea-5301025_640.jpg',
-    whatsapp: 'https://wa.me/2347012345678?text=I%20need%20Fibroid%20Flush',
+    whatsapp: 'https://wa.me/13417583264?text=I%20need%20Fibroid%20Flush',
   },
   {
     id: 5,
@@ -44,7 +44,7 @@ const products = [
     previousPrice: '$70',
     description: 'Herbal formula to boost fertility.',
     image: '/images/infections/wordpressphotos/tea-1869716_640.jpg',
-    whatsapp: 'https://wa.me/2347012345678?text=I%20am%20interested%20in%20Fertility%20Boost',
+    whatsapp: 'https://wa.me/13417583264?text=I%20am%20interested%20in%20Fertility%20Boost',
   },
   {
     id: 6,
@@ -53,7 +53,7 @@ const products = [
     previousPrice: '$80',
     description: 'Strengthens your immune system.',
     image: '/images/infections/IMG-20250507-WA0017.jpg',
-    whatsapp: 'https://wa.me/2347012345678?text=Order%20Immune%20Shield',
+    whatsapp: 'https://wa.me/13417583264?text=Order%20Immune%20Shield',
   },
 ];
 
