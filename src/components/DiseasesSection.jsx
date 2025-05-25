@@ -48,6 +48,10 @@ const DiseasesSection = () => {
             <li>Trichomoniasis</li>
             <li>Syphilis</li>
             <li>Chlamydia</li>
+            <li>Psoriasis </li>
+            <li>Impetigo</li>
+            <li>Genital herpes </li>
+            <li>hepatitis B </li>
             <li>UTI</li>
             <li>E.T.C</li>
           </ul>

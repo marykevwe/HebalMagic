@@ -31,8 +31,8 @@ const IllnessesSection = () => {
   return (
     <div>
       <div className='container mx-auto text-center mt-8'>
-      <h1 className="text-4xl text-[#057a55] font-bold tracking-wider">
-          Herbal Magic <br /> 🌿 Say Goodbye to Chronic Illnesses and Infections — Treat Over 30 Conditions Naturally!  .
+      <h1 className="text-4xl text-[#057a55] font-bold tracking-wider mb-7">
+      🌿 Say Goodbye to Chronic Illnesses and Infections — Treat Over 30 Conditions Naturally!  .
         </h1>
       </div>
 

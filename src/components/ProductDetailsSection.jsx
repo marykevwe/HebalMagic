@@ -30,15 +30,15 @@ const products = [
     name: 'Fibroid Flush',
     price: '₦18,000',
     description: 'Supports fibroid shrinkage naturally.',
-    image: '/images/drugs/IMG-20250507-WA0014.jpg',
+    image: '/images/infections/wordpressphotos/green-tea-5301025_640.jpg',
     whatsapp: 'https://wa.me/2347012345678?text=I%20need%20Fibroid%20Flush',
   },
   {
     id: 5,
     name: 'Fertility Boost',
-    price: '₦20,000',
+    price: '$54',
     description: 'Herbal formula to boost fertility.',
-    image: '/images/drugs/IMG-20250507-WA0026.jpg',
+    image: '/images/infections/wordpressphotos/tea-1869716_640.jpg',
     whatsapp: 'https://wa.me/2347012345678?text=I%20am%20interested%20in%20Fertility%20Boost',
   },
   {

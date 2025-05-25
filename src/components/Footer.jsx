@@ -27,9 +27,9 @@ const Footer = () => {
           <div>
             <h4 className="text-2xl font-semibold mb-4">Contact Us</h4>
             <ul className="space-y-2">
-              <li><p>Phone: 070-12345678</p></li>
-              <li><p>Email: contact@herbalmagic.com</p></li>
-              <li><p>Address: 123 Herbal St, Lagos, Nigeria</p></li>
+              <li><p>Phone: +1 341 758 3264</p></li>
+              <li><p>Email: Dredemherbalsolutions@gmail.com</p></li>
+              
             </ul>
           </div>
 
